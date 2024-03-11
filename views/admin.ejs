@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="..\css\style.css" />
+</head>
+<body>
+    <div class = "container">
+        <h1>Adaugă un produs nou</h1>
+        <form method="POST" action="/admin/adaugare-produs">
+            <label for="nume_produs">Nume Produs:</label><br>
+            <input type="text" id="nume_produs" name="nume_produs"><br><br>
+
+            <label for="pret">Preț produs:</label><br>
+            <input type="number" id="pret" name="pret"><br><br>
+
+            <input type="submit" value="Adaugă produs">
+        </form>
+
+        <h1>Baza de date:</h1>
+
+        <form action="/creare-bd" method="get">
+            <button type="submit">Creare BD</button>
+        </form> <br>
+        <form action="/inserare-bd" method="get">
+            <button type="submit">Incarcare BD</button>
+        </form>
+    </div>
+</body>
+</html>

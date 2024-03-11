@@ -1,0 +1,95 @@
+:root{
+  --background-color: #99A98F;
+  --nav-color: #C1D0B5;
+  --nav-a-hover-color: #FFF8DE;
+  --nav-a-backcolor: #C1D0B5;
+  --table-head-color: #C1D0B5;
+  --neutral-color: #C1D0B5;
+  --footer-color: #C1D0B5;
+  --section-color: #C1D0B5;
+}
+
+html, head, body{
+  margin: 0px;
+  padding: 0px;
+  background-color:  var(--background-color);
+  font-family: Arial;
+}
+
+header{
+  margin: 0px;
+  padding: 20px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%, auto;
+  font-family: sans-serif;
+  font-size: 32px;
+  color: var(--nav-a-hover-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  background-color: #D6E8DB;
+  /*height: 300px;  only for demonstration, should be removed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #99A98F;
+  transform: scale(1.2);
+}
+
+div.container {
+  text-align: center;
+}
+
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+button{
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  background-color: var(--table-head-color);
+  color: black;
+  border-radius: 10px;
+}
+
+.intrebare {
+  background-color: #ffffff;
+  margin: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.eroare {
+  color: red;
+}

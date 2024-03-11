@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acasa</title>
+    <link rel="stylesheet" type="text/css" href="..\public\css\style.css" />
+</head>
+<body>
+    <div class = "container">
+        <% if (username) { %>
+            <% if (role == "ADMIN") {%>
+                <nav>
+                    <a href="/admin">Admin</a>
+                </nav>
+            <% } %>
+            <nav>
+                <a href="/delogare">Logout</a>
+            </nav>
+    
+            <h1>Bine ai venit, <%= username %>!</h1>
+        <% } else { %>
+            <nav>
+                <a href="/autentificare">Autentificare</a>
+            </nav>
+            <h1>Bine ai venit!</h1>
+        <% } %>
+    </div>
+    
+    <div class = "container">
+        <h1>Produse:</h1>
+        <ul class = "myUL">
+            <% produse.forEach(function(produs) { %>
+                <li>
+                    <strong>Nume: </strong> <%= produs.nume %>
+                    <strong>Preț: </strong> <%= produs.pret %> lei
+                    <% if (autentificat) { %>
+                        <form action="/adaugare_cos" method="post">
+                            <input type="hidden" name="id" value="<%= produs.id %>">
+                            <button type="submit">Adaugă în coș</button>
+                        </form>
+                    <% } %>
+                    <br>
+                </li>
+            <% }); %>
+        </ul>
+    </div>
+</body>
+</html>

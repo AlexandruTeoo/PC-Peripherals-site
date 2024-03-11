@@ -1,0 +1,27 @@
+[
+    {
+        "intrebare": "Care dintre următoarele dispozitive este utilizat pentru introducerea datelor într-un computer?",
+        "raspunsuri": ["Mouse", "Monitor", "Tastatură", "Imprimantă"],
+        "raspunsCorect": "Tastatură"
+    },
+    {
+        "intrebare": "Ce periferic de ieșire afișează informațiile procesate de un computer?",
+        "raspunsuri": ["Mouse", "Tastatură", "Monitor", "Boxe"],
+        "raspunsCorect": "Monitor"
+    },
+    {
+        "intrebare": "Care dintre următoarele dispozitive este utilizat pentru scanarea documentelor sau fotografiilor?",
+        "raspunsuri": ["Tastatură", "Mouse", "Scaner", "Boxe"],
+        "raspunsCorect": "Scaner"
+    },
+    {
+        "intrebare": "Ce periferic permite transferul de date între un computer și alte dispozitive?",
+        "raspunsuri": ["Router", "Tastatură", "Boxe", "USB (Universal Serial Bus)"],
+        "raspunsCorect": "USB (Universal Serial Bus)"
+    },
+    {
+        "intrebare": "Care dintre următoarele dispozitive este utilizat pentru tipărirea documentelor sau imaginilor?",
+        "raspunsuri": ["Monitor", "Imprimantă", "Tastatură", "Scaner"],
+        "raspunsCorect": "Imprimantă"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    { 
+        "nume": "Mouse", 
+        "pret": "65.99" 
+    },
+    { 
+        "nume": "Tastatura", 
+        "pret": "84.99" 
+    },
+    { 
+        "nume": "Casti", 
+        "pret": "129.99" 
+    },
+    { 
+        "nume": "Boxe", 
+        "pret": "54.99" 
+    },
+    { 
+        "nume": "Mousepad", 
+        "pret": "19.99" 
+    },
+    { 
+        "nume": "Camera Web", 
+        "pret": "105.99" 
+    },
+    { 
+        "nume": "Microfon PC", 
+        "pret": "89.99" 
+    },
+    { 
+        "nume": "Memorii USB", 
+        "pret": "47.99" 
+    },
+    { 
+        "nume": "SSD extern", 
+        "pret": "372.99" 
+    }
+]
